@@ -39,16 +39,18 @@ function App() {
           </div>
         </div>
       </div >
-      <div style={{ backgroundImage: `url(${bottomBg})` }} className="h-[25vh] bg-no-repeat bg-cover flex justify-center items-center gap-x-5">
-        <a className="hover:text-red-700" href="https://www.facebook.com" target="_blank">
-          <img src={fbIcon} alt="" />
-        </a>
-        <a href="">
-          <img src={pinterestIcon} alt="" />
-        </a>
-        <a href="">
-          <img src={instagramIcon} alt="" />
-        </a>
+      <div style={{ backgroundImage: `url(${bottomBg})` }} className="h-[25vh] bg-no-repeat bg-cover flex justify-center items-center">
+        <div className="flex gap-x-4 text-[#8486A9]">
+          <div>
+            <i className="fa-brands fa-square-facebook text-3xl hover:text-[#F16A8C] hover:rotate-[360deg] transition-all  duration-500"></i>
+          </div>
+          <div>
+            <i className="fa-brands fa-pinterest text-3xl hover:text-[#F16A8C] hover:rotate-[360deg] transition-all transform duration-500"></i>
+          </div>
+          <div>
+            <i className="fa-brands fa-instagram text-3xl hover:text-[#F16A8C] hover:rotate-[360deg] transition-all transform duration-500"></i>
+          </div>
+        </div>
       </div>
     </div>
   );
